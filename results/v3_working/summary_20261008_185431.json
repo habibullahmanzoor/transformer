@@ -1,0 +1,12 @@
+{
+  "experiment_date": "2026-10-08T18:54:33.065634",
+  "datasets": [
+    "mnist"
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "total_experiments": 6,
+  "successful_experiments": 
