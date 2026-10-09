@@ -1,0 +1,75 @@
+{
+  "timestamp": "20261009_074752",
+  "total_experiments": 3,
+  "results": [
+    {
+      "dataset": "MNIST",
+      "seed": 42,
+      "num_layers": 2,
+      "num_iter": 20,
+      "model_params": 71946,
+      "clean_train_acc": 1.0,
+      "clean_test_acc": 0.73,
+      "uaap_gen": {
+        "clean_acc": 0.73,
+        "adv_acc": 0.695,
+        "fooling_rate": 0.03500000000000003,
+        "fr": 0.085,
+        "asr": 0.06164383561643835
+      },
+      "input_uap": {
+        "clean_acc": 0.73,
+        "adv_acc": 0.7,
+        "fooling_rate": 0.030000000000000027,
+        "fr": 0.105,
+        "asr": 0.0684931506849315
+      }
+    },
+    {
+      "dataset": "MNIST",
+      "seed": 123,
+      "num_layers": 2,
+      "num_iter": 20,
+      "model_params": 71946,
+      "clean_train_acc": 1.0,
+      "clean_test_acc": 0.65,
+      "uaap_gen": {
+        "clean_acc": 0.65,
+        "adv_acc": 0.62,
+        "fooling_rate": 0.030000000000000027,
+        "fr": 0.13,
+        "asr": 0.1
+      },
+      "input_uap": {
+        "clean_acc": 0.65,
+        "adv_acc": 0.575,
+        "fooling_rate": 0.07500000000000007,
+        "fr": 0.22,
+        "asr": 0.17692307692307693
+      }
+    },
+    {
+      "dataset": "MNIST",
+      "seed": 456,
+      "num_layers": 2,
+      "num_iter": 20,
+      "model_params": 71946,
+      "clean_train_acc": 1.0,
+      "clean_test_acc": 0.645,
+      "uaap_gen": {
+        "clean_acc": 0.645,
+        "adv_acc": 0.615,
+        "fooling_rate": 0.030000000000000027,
+        "fr": 0.125,
+        "asr": 0.09302325581395349
+      },
+      "input_uap": {
+        "clean_acc": 0.645,
+        "adv_acc": 0.585,
+        "fooling_rate": 0.06000000000000005,
+        "fr": 0.185,
+        "asr": 0.15503875968992248
+      }
+    }
+  ]
+}

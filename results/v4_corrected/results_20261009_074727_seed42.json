@@ -1,0 +1,23 @@
+{
+  "dataset": "MNIST",
+  "seed": 42,
+  "num_layers": 2,
+  "num_iter": 20,
+  "model_params": 71946,
+  "clean_train_acc": 1.0,
+  "clean_test_acc": 0.73,
+  "uaap_gen": {
+    "clean_acc": 0.73,
+    "adv_acc": 0.695,
+    "fooling_rate": 0.03500000000000003,
+    "fr": 0.085,
+    "asr": 0.06164383561643835
+  },
+  "input_uap": {
+    "clean_acc": 0.73,
+    "adv_acc": 0.7,
+    "fooling_rate": 0.030000000000000027,
+    "fr": 0.105,
+    "asr": 0.0684931506849315
+  }
+}
